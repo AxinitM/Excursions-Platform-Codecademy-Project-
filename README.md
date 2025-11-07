@@ -9,16 +9,14 @@ The design emphasizes **visual storytelling** using **video backgrounds** and **
 
 ## Table of contents
 
-- [Excursions Platform / Codecademy Project](#excursions-platform--codecademy-project)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Project Goals](#project-goals)
-  - [Features](#features)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built With](#built-with)
-  - [Author](#author)
-  - [License](#license)
+- [Overview](#overview)
+- [Project Goals](#project-goals)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built With](#built-with)
+- [Author](#author)
+- [License](#license)
 
 ---
 
@@ -55,7 +53,7 @@ The site promotes an upcoming travel app by presenting:
 
 ## Screenshot
 
-![](./assets/screenshot.jpeg)
+![](/assets/screenshot.jpeg)
 
 ---
 
