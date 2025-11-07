@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- === Character encoding & viewport === -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf9fd" />
+
+    <!-- === Page info === -->
+    <title>Excursions Platform — Codecademy Project</title>
+    <meta
+      name="description"
+      content="Excursions Platform — discover hidden places and get personalized travel recommendations worldwide."
+    />
+    <meta
+      name="keywords"
+      content="excursion, travel, guide, hidden places, mobile app, iPhone, Android, adventure, tourism"
+    />
+    <meta name="author" content="Excursions Platform" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- === Canonical URL === -->
+    <link rel="canonical" href="https://www.yoursite.com/" />
+
+    <!-- === Favicon === -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png" />
+
+    <!-- === Google Fonts === -->
+    <!-- Not using any custom fonts -->
+
+    <!-- === CSS Reset / Styles === -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- === Open Graph (Facebook, LinkedIn, etc.) === -->
+    <meta
+      property="og:title"
+      content="Excursions Platform — Discover Hidden Places Worldwide"
+    />
+    <meta
+      property="og:description"
+      content="Discover hidden places and get personalized travel recommendations worldwide."
+    />
+    <meta
+      property="og:image"
+      content="https://www.yoursite.com/assets/og-image.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.yoursite.com/" />
+
+    <!-- === Twitter Card === -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Excursions Platform — Discover Hidden Places Worldwide"
+    />
+    <meta
+      name="twitter:description"
+      content="Discover hidden places and get personalized travel recommendations worldwide."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.yoursite.com/assets/og-image.jpg"
+    />
+    <meta name="twitter:site" content="@YourTwitterHandle" />
+
+    <!-- === Optional accessibility / SEO improvements === -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header section -->
+      <header role="banner" aria-label="Main Header">
+        <h1>Discover hidden places in the world around you</h1>
+      </header>
+
+      <!-- App availability 1 of 2 sections  -->
+      <a
+        href="#"
+        role="button"
+        aria-label="Download Excursion app — coming soon"
+      >
+        Download Excursion (Coming soon!)
+      </a>
+
+      <main role="main" aria-label="Excursion main content">
+        <!-- Video section -->
+        <section aria-label="Introductory video">
+          <video
+            class="camp-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="Promotional video of Excursion platform"
+          >
+            <source src="./assets/excursion.mp4" type="video/mp4" />
+          </video>
+        </section>
+
+        <!-- Travel guide section -->
+        <section aria-label="Personal travel guide description">
+          <h2>Your personal travel guide</h2>
+          <p>
+            Excursion remembers places you like, and recommends new points of
+            interest around you
+          </p>
+        </section>
+
+        <!-- Image section -->
+        <section aria-label="Images from excursions">
+          <img
+            class="camp-image"
+            src="./assets/camp.jpg"
+            alt="A tent on top of a mountain at sunrise"
+            loading="lazy"
+            decoding="async"
+          />
+
+          <img
+            class="mobile-icon"
+            src="./assets/phone.png"
+            alt="Mobile phone icon representing the Excursion app"
+            loading="lazy"
+            decoding="async"
+          />
+        </section>
+
+        <!-- App availability 2 of 2 sections  -->
+        <section aria-label="App availability">
+          <h2>Coming Soon for iPhone and Android</h2>
+          <a
+            href="#"
+            role="button"
+            aria-label="Download Excursion app — coming soon"
+          >
+            Download Excursion (Coming soon!)
+          </a>
+        </section>
+      </main>
+
+      <!-- Footer section -->
+      <footer role="contentinfo" aria-label="Footer">
+        <hr />
+        <p class="footer-text">
+          &copy; 2025
+          <a href="https://www.frontender.biz/" target="_blank"
+            >Andrei Martinenko</a
+          >
+          and
+          <a
+            href="https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/finishing-touches-and-publishing-a-website/modules/git-and-publishing-to-github-pages/projects/f1-excursion"
+            target="_blank"
+            >Excursion Codecademy Project</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

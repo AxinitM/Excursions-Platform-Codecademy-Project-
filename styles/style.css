@@ -1,0 +1,156 @@
+/* == Root and General sets ==*/
+:root {
+  /* == Colors == */
+  --clr-bg: #000;
+  --clr-text-main: #fff;
+  --clr-text: #808080;
+  --clr-text-link: #7fffd4;
+  --clr-black: #000;
+
+  /* == Fonts == */
+  --font-main: Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: var(--font-main);
+  background-color: var(--clr-bg);
+  color: var(--clr-text-main);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* == Headers & text sets  */
+h1 {
+  font-size: 3.125rem;
+  font-weight: 400;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+p {
+  color: var(--clr-text);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* == Links sets == */
+
+a {
+  color: var(--clr-text-link);
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 1.5rem auto;
+}
+
+/* == Main container sets == */
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* == Video and Images section */
+
+.camp-video,
+.camp-image,
+.mobile-icon {
+  margin: 2rem auto;
+}
+
+.camp-image {
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* == Footer section == */
+footer a {
+    text-decoration: none; 
+    color: var(--clr-text);
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: var(--clr-text);
+  margin: 2rem auto;
+}
+
+hr {
+  border: none;
+  height: 0.1rem;
+  width: 50%;
+  margin: 2rem auto;
+  background-color: var(--clr-text);
+}
+
+@media screen and (max-width: 780px) {
+  /* @media headers and text sets  */
+  h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* == @media Links sets == */
+
+  a {
+    font-size: 0.8rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  /* == @media Video and Images section */
+  .camp-video,
+  .camp-image {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .mobile-icon {
+    max-width: 40px;
+  }
+
+  /* == @media Footer section == */
+
+
+  .footer-text {
+    margin: 1rem auto;
+  }
+
+  hr {
+    margin: 1.2rem auto;
+  }
+}
+
+/* Hover effect only for devices with a mouse */
+@media (hover: hover) and (pointer: fine) {
+    footer a:hover {
+      color: var(--clr-text-link);
+    }
+  }
