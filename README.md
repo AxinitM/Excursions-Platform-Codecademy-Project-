@@ -61,7 +61,7 @@ The site promotes an upcoming travel app by presenting:
 
 - **Project Description:** [Codecademy Project Page](https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/finishing-touches-and-publishing-a-website/modules/git-and-publishing-to-github-pages/projects/f1-excursion)  
 - **Live Demo Page:** [https://your-live-site-url.com](https://axinitm.github.io/Excursions-Platform-Codecademy-Project-/)
-- **Source Code:** [https://github.com/AxinitM/excursion-platform](https://github.com/AxinitM/excursion-platform)  
+- **Source Code:** [https://github.com/AxinitM/excursion-platform](https://github.com/AxinitM/Excursions-Platform-Codecademy-Project-/tree/main)
 
 ---
 
