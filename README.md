@@ -53,7 +53,7 @@ The site promotes an upcoming travel app by presenting:
 
 ## Screenshot
 
-![](/assets/screenshot.jpeg)
+![](/assets/screensaver.jpeg)
 
 ---
 
